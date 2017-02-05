@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background:#E72486;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color: #fff;
+}
+
+.instruction {
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.instruction h1 {
+    margin-bottom: 20px;
+}
