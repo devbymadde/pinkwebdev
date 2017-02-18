@@ -10,27 +10,85 @@
 </head>
 
 <body>
-    <div class="gallery items-3">
+    <header>
+        <a href="index.html"><img src="img/logo.png" alt="Pink WebDev logotype"></a>
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="person1.html">Person 1</a>
+                </li>
+                <li>
+                    <a href="person2.html" class="selected">Person 2</a>
+                </li>
+                <li>
+                    <a href="github-pages.html">Github Pages</a>
+                </li>
+                <li>
+                    <a href="links.html">Länkar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="gallery items-5">
         <div id="item-1" class="control-operator"></div>
         <div id="item-2" class="control-operator"></div>
         <div id="item-3" class="control-operator"></div>
+        <div id="item-4" class="control-operator"></div>
+        <div id="item-5" class="control-operator"></div>
+
 
         <figure class="item">
-            <h1>1</h1>
+            <div class="instruction">
+                <h1>Steg 1</h1>
+                <p>
+                    Invänta att din vän ger dig klartecken att starta. Gör en fork av din väns repository.
+                </p>
+            </div>
         </figure>
 
         <figure class="item">
-            <h1>2</h1>
+            <div class="instruction">
+                <h1>Steg 2</h1>
+                <p>
+                    Klona din nya fork lokalt till din dator.
+                </p>
+            </div>
         </figure>
 
         <figure class="item">
-            <h1>3</h1>
+            <div class="instruction">
+                <h1>Steg 3</h1>
+                <p>
+                    Se till att du har rätt upstream genom att göra git remote -v git remote add upstream https://github.com/username/repo.git
+                </p>
+            </div>
+        </figure>
+
+        <figure class="item">
+            <div class="instruction">
+                <h1>Steg 4</h1>
+                <p>
+                    Gör en ändring i index.html, commita den och pusha den.
+                </p>
+            </div>
+        </figure>
+
+        <figure class="item">
+            <div class="instruction">
+                <h1>Steg 5</h1>
+                <p>
+                    Gå in på din fork på github och tryck på knappen "new pull request". Berätta för din vän att du är klar.
+                </p>
+            </div>
         </figure>
 
         <div class="controls">
             <a href="#item-1" class="control-button">•</a>
             <a href="#item-2" class="control-button">•</a>
             <a href="#item-3" class="control-button">•</a>
+            <a href="#item-4" class="control-button">•</a>
+            <a href="#item-5" class="control-button">•</a>
         </div>
     </div>
 </body>
