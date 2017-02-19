@@ -14,12 +14,12 @@
         <a href="index.html"><img src="img/logo.png" alt="Pink WebDev logotype"></a>
         <div class="navigation">
             <ul>
-                <li>
-                    <a href="person1.html">Person 1</a>
+                   <!-- <li>
+                    <a href="person1.html" class="selected">Person 1</a>
                 </li>
                 <li>
                     <a href="person2.html">Person 2</a>
-                </li>
+                </li>-->
                 <li>
                     <a href="github-pages.html" class="selected">Github Pages</a>
                 </li>
@@ -29,6 +29,79 @@
             </ul>
         </div>
     </header>
+  
+<div class="gallery items-5">
+        <div id="item-1" class="control-operator"></div>
+        <div id="item-2" class="control-operator"></div>
+        <div id="item-3" class="control-operator"></div>
+        <div id="item-4" class="control-operator"></div>
+        <div id="item-5" class="control-operator"></div>
+
+        <figure class="item">
+            <div class="instruction">
+                <h1>Steg 1</h1>
+                <p>
+                    För att lägga upp ditt projekt på github pages behöver du först och främst skapa ett nytt repository. 
+                    Gå in på din profil och välj att skapa ett repo. Det enklaste är att döpa det enligt formeln user.github.io, där user är ditt användarnamn.
+                    Se till att klicka i "Initialize this repository with a README", då det gör att du direkt kan klona repot till din maskin.
+                </p>
+            </div>
+        </figure>
+
+        <figure class="item">
+            <div class="instruction">
+                <h1>Steg 2</h1>
+                <p>
+                    <p>Därefter behöver du klona repot till din dator. Öppna en ny terminal där du vill lägga repositoryt och kör kommandot
+                        <span class="code">git clone https://github.com/user/user.github.io.git</span> (med rätt länk förstås)
+                </p>
+            </div>
+        </figure>
+
+        <figure class="item">
+            <div class="instruction">
+                <h1>Steg 3</h1>
+                <p>
+                   Nu när du har ett repository på din dator är det bara till att lägga in alla filer från ditt projekt. Se till att det finns en fil som heter <span class="code">index.html</span> i roten.
+                </p>
+            </div>
+        </figure>
+
+        <figure class="item">
+            <div class="instruction">
+                <h1>Steg 4</h1>
+                <p>
+                    Nu behöver du se till att spara dina grejer. Gå in i terminalen och kolla statusen på ditt repository genom att köra <span class="code">git status</span>
+                </p>
+                <p>Som du ser har det dykt upp en massa nya filer som du vill committa. Först behöver du lägga till alla filer till gits "staging area", genom att göra <span class="code">git add .</span></p>
+                <p>Därefter kan du göra en commit genom att köra <span class="code">git commit -m "Mitt commitmeddelande"</span> </p>
+                <p>Nu ligger alla filer sparade lokalt, men de ligger fortfarande inte i ditt remote repositor på git. Därför måste du också köra <span class="code">git push</span> </p>
+            </div>
+        </figure>
+
+        <figure class="item">
+            <div class="instruction">
+                <h1>Steg 5</h1>
+                <p>
+                    Nu har ditt projekt pushats till github och github pages. Om du går in på http://user.github.io (med ditt användarnamn) så ska du kunna se ditt projekt.
+                    Ibland tar det en liten stund att deploya, men oftast går det rätt fort.
+                </p>
+                <p>Nu är det bara att jobba vidare med ditt projekt. En bra idé är att skapa en ny branch (t.ex. develop) där all din utveckling sker. Varje gång du pushar till master-branchen
+                    kommer nämligen din site att deployas på nytt, och det är inte alltid du vill att det ska hända. Ibland har du många nya features på plats och då är det bra att dessa ligger i en egen branch fram till att du har nått ett stabil tillstånd,
+                    och då kan du merga in develop-branchen in i master.
+                </p>
+            </div>
+        </figure>
+
+        <div class="controls">
+            <a href="#item-1" class="control-button">•</a>
+            <a href="#item-2" class="control-button">•</a>
+            <a href="#item-3" class="control-button">•</a>
+            <a href="#item-4" class="control-button">•</a>
+            <a href="#item-5" class="control-button">•</a>
+        </div>
+    </div>
+
 
 </body>
 

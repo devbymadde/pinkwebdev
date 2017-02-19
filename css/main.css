@@ -9,6 +9,7 @@ body {
     background:#E72486;
     color: #fff;
     font-family: 'Lato', sans-serif;
+    line-height: 1.5rem;
 }
 
 header {
@@ -43,6 +44,23 @@ header img {
     color:#7C7C7C;
 }
 
+.content {
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.code {
+    font-family: Courier New, Courier, monospace;
+    padding: 2px;
+    background: #ccc;
+    border: 1px solid #888;
+    border-radius: 3px;
+    color:#333;
+}
+
 ul {
     display:inline;
 }
@@ -55,10 +73,11 @@ a {
 }
 
 .instruction {
-    max-width: 600px;
+    max-width: 700px;
     width: 90%;
     margin: 0 auto;
     margin-top: 30px;
+    text-align: initial;
 }
 
 .instruction h1 {
